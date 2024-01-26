@@ -5,43 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Woomy World</title>
     <style>
+        /*Style-Body*/
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            background-image: url("Pile_O_Parts.jpg")
         }
+        /*Style-Header*/
         header {
             background-color: #3498db;
-            color: #fff;
+            font-size: 25px;
+            color: white; /*Text Color*/
             text-align: center;
-            padding: 20px 0;
+            padding: 5px 0px;
         }
+        /*Style-Navbar*/
         nav {
             text-align: center;
             background-color: #2c3e50;
+            font-size:20px;
             padding: 10px 0;
+
         }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            padding: 10px 20px;
-            margin: 0 10px;
+            /*Navbar Hover Settings*/
+            nav a {
+                color: #fff;
+                text-decoration: none;
+                padding: 10px 20px;
+                margin: 0 10px;
+            }
+                nav a:hover {
+                    background-color: #34495e;
+                }
+
+        /*Style-Footer*/
+        footer {
+            enable-background: ;
+            text-align: center;
+            background-color: #2c3e50;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            /* Height of the footer*/
+            height: 40px;
         }
-        nav a:hover {
-            background-color: #34495e;
         }
+            /*Footer Settings*/
+            footer img {
+                max-width: 100%;
+                height: auto;
+                margin: 10px;
+            }
     </style>
 </head>
+
 <body>
+    <!--Body-Header-->
     <header>
         <h1>Woomy World</h1>
     </header>
+    <!--Body-Navbar-->
     <nav>
         <a href="#">Home</a>
-        <a href="#">Portfolio</a>
+        <a href="#">MOCs</a>
         <a href="#">About</a>
     </nav>
+    <p>Hello</p>
     <!-- Your website content goes here -->
+
+    <footer>
+        <a href="instagram.com/woomy_world">
+            <img src="images/insta_white">
+        </a>
+        <a href="#">
+            <img src="images/flickr_white">
+        </a>
+    </footer>
 </body>
 </html>
