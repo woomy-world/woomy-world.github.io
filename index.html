@@ -11,8 +11,30 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            background-image: url("Pile_O_Parts.jpg")
+            background-image: url("images/Pile_O_Parts.jpg");
+            background-size: cover;
+            background-position:center;
+
+            position:relative;
+
+            overflow-x:hidden;
+            overflow-y:scroll;
         }
+
+        /* Semi-Transparent Box Overlay */
+        .overlay-box {
+            position: fixed;
+
+            top: 200px; /* Adjust as needed */
+            left: 300px; /* Adjust as needed */
+            right: 300px; /* Adjust as needed */
+            bottom: 85px; /* Adjust as needed */
+            margin:20px;
+            background-color: rgba(240,237,237,1);/* Adjust the color and opacity as needed */
+            border-radius: 20px; /* Adjust the radius of the corners */
+            z-index: 0;
+        }
+
         /*Style-Header*/
         header {
             background-color: #3498db;
@@ -20,6 +42,8 @@
             color: white; /*Text Color*/
             text-align: center;
             padding: 5px 0px;
+
+            z-index: 2;
         }
         /*Style-Navbar*/
         nav {
@@ -28,6 +52,7 @@
             font-size:20px;
             padding: 10px 0;
 
+            z-index: 2;
         }
             /*Navbar Hover Settings*/
             nav a {
@@ -42,7 +67,6 @@
 
         /*Style-Footer*/
         footer {
-            enable-background: ;
             text-align: center;
             background-color: #2c3e50;
             padding: 10px 0;
@@ -51,13 +75,25 @@
             width: 100%;
             /* Height of the footer*/
             height: 40px;
+
+            z-index: 2;
         }
-        }
+        
             /*Footer Settings*/
             footer img {
                 max-width: 100%;
                 height: auto;
                 margin: 10px;
+            }
+
+            /* Content Style */
+            .content {
+                position: relative;
+                color: black;
+                text-align: center;
+                padding: 50px;
+
+                z-index:2;
             }
     </style>
 </head>
@@ -69,19 +105,25 @@
     </header>
     <!--Body-Navbar-->
     <nav>
-        <a href="#">Home</a>
-        <a href="#">MOCs</a>
+        <a href="index.html">Home</a>
+        <a href="mocs/index.html">MOCs</a>
         <a href="#">About</a>
     </nav>
-    <p>Hello</p>
-    <!-- Your website content goes here -->
+
+    <!-- Semi-transparent box overlay -->
+    <div class="overlay-box"> </div>
+    
+    <div class="content">
+        <h2> home page </h2>
+        <p> welcome </p>
+    </div>
 
     <footer>
-        <a href="#">
-            <img src="images/insta_white">
+        <a href="https://instagram.com/woomy_world">
+            <!-- <img src="images/insta_white.png"> -->
         </a>
         <a href="#">
-            <img src="images/flickr_white">
+            <!-- <img src="images/flickr_white.png"> -->
         </a>
     </footer>
 </body>
