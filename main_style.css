@@ -1,0 +1,93 @@
+/*Style_Sheet_Main*/
+/*This style sheet includes the body, header, navbar, and footer (WIP)*/
+        /*Style-Body*/
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-image: url("images/Pile_O_Parts.jpg");
+            background-size: cover;
+            background-position:center;
+            position:absolute;
+
+            overflow-x:hidden;
+            overflow-y:scroll;
+            width:100%;
+
+            display:flex;
+            flex-direction: column;
+            min-height:100vh;
+        }
+
+        /* Content Style */
+            .content {
+                position: relative;
+                color: black;
+                text-align: center;
+                padding: 10px;
+                flex:1;
+                z-index:2;
+            }
+
+        /*Style-Header*/
+        header {
+            background-color: #3498db;
+            font-size: 25px;
+            color: white; /*Text Color*/
+            text-align: center;
+            padding: 5px 0px;
+
+            z-index: 2;
+        }
+        /*Style-Navbar*/
+        nav {
+            text-align: center;
+            background-color: #2c3e50;
+            font-size:20px;
+            padding: 10px 0;
+
+            z-index: 2;
+        }
+            /*Navbar Hover Settings*/
+            nav a {
+                color: #fff;
+                text-decoration: none;
+                padding: 10px 20px;
+                margin: 0 10px;
+            }
+                nav a:hover {
+                    background-color: #34495e;
+                }
+
+        /* Style-Footer */
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height:25px;
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            z-index: 2;
+        }
+            .site-footer { 
+        position: absolute; 
+        bottom: 0; 
+        left: 0; 
+        z-index: 2;
+    }
+        .social_icons {
+        margin-top: 0px; /* Adjust the margin as needed */
+        }
+
+        .social_icons a {
+            margin: 0 10px;
+        }
+
+        .social_icons img {
+            width: 30px; /* Adjust the width as needed */
+            height: 30px; /* Adjust the height as needed */
+        }
