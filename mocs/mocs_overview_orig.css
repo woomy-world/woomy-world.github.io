@@ -2,14 +2,13 @@
 /*This style sheet includes the style for the mocs separated by year.*/
         /*Style-Column---COLUMN_SETTINGS*/
         .column{
-            display:grid;
-            grid-template-columns: auto;
-            gap:0px;
-            justify-content:center;
+            display:flex;
+            flex-direction:column;
             align-items:center;
-            margin:0px;
+            margin-top:50px;
+            margin-bottom: 70px;
             padding-top: 20px;
-            padding-bottom: 50px;
+            padding-bottom: 20px;
         }
 
         /*Style-Box---BOX_SETTINGS*/
@@ -56,11 +55,7 @@
         /* Media Query for Smaller Screens */
         @media (max-width: 768px) {
             .box {
-                width: 258px; /* width on mobile */
-                height:73px;
-            }
-            .year_text{
-                padding:15px;
-                font-size: 35px;
-                text-align: center;
+                width: 90%; /* width on mobile */
+                font-size: 70px;
+
             }
