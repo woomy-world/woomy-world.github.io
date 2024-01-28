@@ -11,7 +11,7 @@
 /*            flex-wrap: wrap;*/
             justify-content: center;
             margin:0px;
-
+            padding-bottom:50px;
         }
 
         /* Style for Each Image Box */
@@ -92,7 +92,3 @@
             }
         }
 
-        .fade_in{
-            opacity:1;
-    
-        }
