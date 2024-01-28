@@ -41,7 +41,7 @@
             right:0;
             bottom:0;*/
             padding:60px;
-            font-size:35px;
+            font-size:45px;
             text-align: center;
             box-sizing:border-box;
             opacity: 0;
@@ -90,4 +90,9 @@
             font-size:15px;
             text-align: center;
             }
+        }
+
+        .fade_in{
+            opacity:1;
+    
         }
