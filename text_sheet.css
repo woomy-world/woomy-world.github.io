@@ -27,23 +27,41 @@
 
 .text_title{
 	font-size:40px;
-	color:#21282a;
+	color:#454c49;
 	text-align:center;
 
 }
 .text_subtitle{
 	font-size:30px;
-	color:#21282a;
+	color:#454c49;
+
+}
+.text_subsubtitle{
+	font-size:25px;
+	color:#454c49;
 
 }
 .text_body{
-	font-size:20px;
-	color:#21282a;
+	font-size:18px;
+	color:#454c49;
 	text-align: justify;
 
 	margin-left:60px;
 	margin-right:60px;
 }
+img{
+	width:150px;
+	height:auto;
+	padding:0;
+
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 
 /* Media Query for Smaller Screens */
   @media (max-width: 768px) {
