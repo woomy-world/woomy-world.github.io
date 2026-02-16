@@ -30,6 +30,25 @@ img{
 	padding:0;
 
 }
+/*For pictures inside .text_body*/
+.body_pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+.body_pic_s {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+.body_pic_m {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
 
 .text_title{
 	font-size:40px;
