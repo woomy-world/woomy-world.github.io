@@ -37,6 +37,12 @@ img{
   margin-right: auto;
   width: 85%;
 }
+.body_pic_xs {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
 .body_pic_s {
   display: block;
   margin-left: auto;
@@ -69,6 +75,11 @@ img{
 
 	margin-left:90px;
 	margin-right:90px;
+}
+.text_fig{
+    font-size:16px;
+    color:#454c49;
+
 }
 
         /*BACK_BUTTON*/
