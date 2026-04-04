@@ -28,8 +28,13 @@ img{
 	width:600px;
 	height:auto;
 	padding:0;
-
 }
+
+
+.circular_img {
+    border-radius: 50%;
+}
+
 /*For pictures inside .text_body*/
 .body_pic {
   display: block;
@@ -41,7 +46,7 @@ img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 40%;
 }
 .body_pic_s {
   display: block;

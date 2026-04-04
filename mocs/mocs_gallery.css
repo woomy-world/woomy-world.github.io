@@ -27,6 +27,10 @@
             cursor: pointer;
             transition: transform 0.3s ease-in-out;
         }
+        /* special class circular img */
+        .circular_img {
+            border-radius: 50%;
+        }
 
 
         /* Style-Image-Text---BOX_TEXT_SETTINGS_HOVER*/
